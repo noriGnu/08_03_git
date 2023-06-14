@@ -15,9 +15,9 @@ def myfunc_4(a):
 
 def main():
     a = [1, 2, 3, 4, 5]
-    for _ in range(10000):
+    for _ in range(1000):
         myfunc_4(a)
-    for _ in range(10000):
+    for _ in range(1000):
         myfunc_3(a)
 
 
